@@ -11,11 +11,62 @@ img {
   width: 600px;
 }
 
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6em;
+}
+
+.footer {
+  background-color: #cfcfcf;
+}
+
+.left-links {
+  display: flex;
+  gap: 0.8em;
+  padding: 0;
+}
+
+.right-links {
+  display: flex;
+  gap: 0.8em;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  background: #cfcfcf;
+  padding: 1em;
 }
 
 input {
